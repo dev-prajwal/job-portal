@@ -1,0 +1,3 @@
+[23-Nov-2019 19:20:13 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/xchzoub66j6y/public_html/recruitergoa/application/views/admin/export/company_list.php on line 2
+[23-Nov-2019 19:21:07 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/xchzoub66j6y/public_html/recruitergoa/application/views/admin/export/company_list.php on line 2
+[23-Nov-2019 19:22:52 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/xchzoub66j6y/public_html/recruitergoa/application/views/admin/export/job_post_list.php on line 2

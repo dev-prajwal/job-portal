@@ -1,0 +1,148 @@
+<!-- Call to Action -->
+    <div class="call-to-action-bg padding-top-90 padding-bottom-90">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="call-to-action-2">
+              <div class="call-to-action-content">
+                <h2>For Find Your Dream Job or Candidate</h2>
+                <p>Add resume or post a job. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+              </div>
+              <div class="call-to-action-button">
+                <a href="<?= site_url('jobs') ?>" class="button">Apply for Jobs</a>
+                <span>Or</span>
+                <a href="<?= site_url('register') ?>" class="button">Post A Job</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Call to Action End -->
+
+<!-- Breadcrumb -->
+<div class="alice-bg padding-top-70 padding-bottom-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="breadcrumb-area">
+              <h1>Contact Us</h1>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="<?= site_url("/") ?>">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="breadcrumb-form">
+              <!-- <form action="#">
+                <input type="text" placeholder="Enter Keywords">
+                <button><i data-feather="search"></i></button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <div class="alice-bg section-padding-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="contact-block">
+              <div class="row">
+                <!-- <div class="col-lg-4">
+                  <div class="contact-address">
+                    <h4>Contact Info</h4>
+                    <ul>
+                      <li><i data-feather="map-pin"></i>International Noel Nawab Street Los Alamitos CA 90720, USA</li>
+                      <li><i data-feather="mail"></i>supportjob@gmail.com example@yourmail.com</li>
+                      <li><i data-feather="phone-call"></i>+99 06 1234 566 88</li>
+                    </ul>
+                  </div>
+                </div> -->
+                <div class="col-lg-7 offset-lg-1">
+                  <div class="contact-form">
+                    <h4>What is that you would like to contact us for?</h4>
+                    <form action="#" id="contactForm">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name" required>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone (Optional)">
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                          </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div class="form-group">
+                            <!-- <textarea class="form-control" placeholder="Message"></textarea> -->
+                              <select class="form-control" id="drpGetInv" required>
+                                <option value="" selected disabled>How would you like to get involved? </option>
+                                <option value="1">I'd like to volunteer</option>
+                                <option value="2">I'd like write an article on the blog</option>
+                                <option value="3">I need help to put the job widget on my website</option>
+                                <option value="4">I want to give my feedback</option>
+                                <option value="5">Report Job Post/Employer</option>
+                                <option value="6">Something else</option>
+                              </select>
+                          </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="button">Submit</button>
+                      <p class="input-success">Your message has been sent. Thanks for contact.</p>
+                      <p class="input-error">Something went wrong while sending. Please try leter.</p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="row">
+                <div class="col">
+                  <div id="map-area" class="contact-map">
+                    <div class="cp-map" id="location" data-lat="40.713355" data-lng="-74.005535" data-zoom="10"></div>
+                  </div>
+                </div>
+              </div> -->
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<script>
+
+window.onload = function (){
+
+  var search = window.location.search;
+
+  var jid = search.split("report=");
+
+  if(jid[1] == "true")
+  {
+    $("#drpGetInv").val("5");
+  }
+};
+
+</script>

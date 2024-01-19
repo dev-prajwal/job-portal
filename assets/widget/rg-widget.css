@@ -1,0 +1,148 @@
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+   border-radius: 50px;
+  background-color: #555;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 34%;
+  right: 10px;
+  width: 100px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.job-widget {
+  background-color: #555;
+  color: white;
+  padding: 5px 20px;
+  border-radius:20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  width: 300px; 
+}
+.job-widget h3{
+  text-align: center;
+}
+.job-widget #info{
+  text-align: center;
+  font-size: 15px;
+}
+.job-widget #see-more{
+  text-align: center;  
+  font-size: 13px;
+}
+
+.job-widget-popup {
+  background-color: #fff;
+  padding:10px;
+  position: fixed;
+  width: 350px;
+  height: 420px;
+  bottom: 200px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  box-shadow: 0 0 11px rgba(0,0,0,.2);
+  border-style: solid;
+  border-width: 1px;  
+  border-color: #bbb;    
+}
+.job-widget-popup h2{
+  text-align: center;
+  padding:0px;
+  margin:10px;
+}
+
+.opening{
+  border-radius: 10px;
+  transition: box-shadow .3s;
+  display: grid;
+  grid-template-columns: auto 30%;
+  /*background-color: #eee;*/
+  background-image: linear-gradient(to left, rgba(247, 249, 252, 0), #f7f9fc);
+  padding:10px;
+  margin:5px;
+  border-style: solid;
+  border-width: 1px;  
+  border-color: #bbb;  
+}
+.opening:hover{
+   box-shadow: 0 0 11px rgba(33,33,33,.1);
+}
+
+.title{
+  font-size: 18px;
+  padding:4px 1px;
+}
+
+.place-type-package{
+  padding:2px 3px;
+  font-size: 14px;
+  display: block;
+}
+.date-posted{
+  font-size: 10px;
+  display: block;  
+  padding:2px 5px;
+}
+.show-more-info{
+  padding: 10px 1px;
+  cursor: pointer;
+}
+.show-more-info a:link, a:visited {
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: #1b2333;
+  color: #fff;
+  margin 10px 10px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;  
+  border-color: #bbb;
+}
+
+.show-more-info a:active {
+  background-color: #fff;
+}
+
+.powered-by p{
+   font-size: 10px;
+   text-align: center;
+}
+
+.show-all-openings{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b2333;
+  border-style: solid;
+  border-width: 1px;  
+  border-color: #aaa;
+  color: #fff;
+  padding: 10px 15px;  
+  margin: 1px 100px;
+  border-radius: 10px;
+}
+.show-all-openings a{
+  color: #fff;
+
+}
+.show-all-openings a:active {
+  background-color: #fff;
+}
+
+.show-all-openings:hover{
+  background-color: #1b2333;
+}
